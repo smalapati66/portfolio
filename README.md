@@ -1,1 +1,4 @@
-Siddarth Malapati's Portfolio.
+This is my portfolio :grin:
+
+[sidmalapati.com](https://sidmalapati.com)
+
