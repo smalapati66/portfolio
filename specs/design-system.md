@@ -11,10 +11,10 @@ Guiding rule: **readability and scannability beat every aesthetic instinct.** Th
 | `--color-ink` | `#232323` | Primary text — near-black charcoal, not pure `#000` (softer, more "drawn" feel) |
 | `--color-ink-soft` | `#4A4A47` | Secondary text (meta info: dates, company names, tech stack) |
 | `--color-ink-faint` | `#8A8680` | Tertiary/muted text (captions, footer) |
-| `--color-accent` | `#3A3A3A` | Dividers, borders, underlines — a charcoal tone, used sparingly |
+| `--color-accent` | `#7A263A` | Muted maroon for link underlines and focus states, used sparingly |
 | `--color-line` | `#D8D3C7` | Hairline borders/dividers between modules |
 
-Only these seven tokens. No additional accent colors (no blue links, no brand color) — links and interactive elements are styled with the ink/underline treatment described below, not a new hue.
+Only these seven tokens. The muted maroon accent is reserved for interaction feedback; links retain ink text and use the accent through underlines or focus treatment rather than link-blue.
 
 **Contrast check:** `--color-ink` on `--color-bg` and `--color-bg-alt` must both clear WCAG AA (4.5:1) for body text — the pairing above does. Never place `--color-ink-faint` text on `--color-bg-alt` for anything except decorative captions.
 
