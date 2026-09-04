@@ -27,6 +27,6 @@ export const experiences: Experience[] = [
     startDate: "Aug 2019",
     endDate: "Jun 2024",
     summary:
-      "Led nationwide competitive math-event logistics while mentoring students in advanced mathematics and problem solving.",
+      "Mentored students in advanced mathematics and problem solving in preparation for nation-wide competitive math contests.",
   },
 ];
