@@ -45,7 +45,7 @@ The subtle charcoal-stroke divider (see design-system.md) — used between major
 Props: `experiences: Experience[]`. Renders `SectionHeading` + maps over entries, one `ExperienceCard` per entry, stacked vertically.
 
 **`ExperienceCard.tsx`**
-Props: a single `Experience`. Renders role/title, company, date range, bullet list, optional tags. Self-contained `<article>`.
+Props: a single `Experience`. Renders role/title, company, date range, one-sentence summary, optional tags. Self-contained `<article>`.
 
 **`ProjectsSection.tsx`**
 Props: `projects: Project[]`. Renders `SectionHeading` + a responsive grid (1 column mobile, 2 columns desktop) of `ProjectCard`s.

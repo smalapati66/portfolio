@@ -33,7 +33,7 @@ interface Bio {
   - Role/title (H3)
   - Company name
   - Date range (e.g. "Jun 2023 – Present")
-  - **Shortened bullet points** describing the experience — 2–4 bullets max, each one line where possible, action-verb-led, no full paragraphs. Cut to the highest-impact points only; this is a portfolio, not a full resume (the resume link covers the complete history).
+  - **One-sentence summary** describing the experience — concise, action-led, and easy to scan. Keep it to the defining work and outcomes; this is a portfolio, not a full resume (the resume link covers the complete history).
 - Tech-stack tags per entry: a small tag list (e.g. "React · TypeScript · Postgres") in `--color-ink-soft`. Keep this to the **most important/defining technologies for that specific role only** — not an exhaustive list. This is a curated highlight, not a full inventory; the complete stack lives in the Tech Stack section below.
 
 Data shape:
@@ -45,7 +45,7 @@ interface Experience {
   companyUrl?: string;
   startDate: string;      // "Jun 2023"
   endDate: string | "Present";
-  bullets: string[];      // 2–4 short bullets
+  summary: string;        // concise one-sentence highlight
   tags?: string[];        // optional tech stack / skills
 }
 ```
@@ -92,6 +92,6 @@ interface TechStack {
 - No newsletter signup, no social share buttons, no extra CTAs — keep the footer quiet.
 
 ## Content principles
-- Every bullet and description should pass a "can this be scanned in one glance" test — if a bullet wraps to 3+ lines, shorten it.
+- Every experience summary and project description should pass a "can this be scanned in one glance" test — if it wraps to 3+ lines, shorten it.
 - Prefer concrete outcomes/actions over vague descriptors ("Rebuilt checkout flow, cutting load time 40%" over "Worked on performance improvements").
 - Content lives in typed data files (e.g. `src/content/experience.ts`, `src/content/projects.ts`) per the interfaces above, not hardcoded inline JSX — see `components.md`.

@@ -6,11 +6,8 @@ export const experiences: Experience[] = [
     company: "Apex Fintech Solutions",
     startDate: "Jun 2026",
     endDate: "Aug 2026",
-    bullets: [
-      "Built and launched a loan rerate tool for securities lenders, comparing contracts against market rates at scale.",
-      "Designed and deployed a Go microservice on GKE backed by PostgreSQL and integrated through gRPC.",
-      "Owned the React/TypeScript frontend, using direct user feedback to improve the interface.",
-    ],
+    summary:
+      "Built a E2E loan rerate tool for operations traders on the securities lending team, optimizing efficiency and speed for rerating stock loan contracts.",
     tags: ["Go", "React", "TypeScript", "PostgreSQL", "GKE"],
   },
   {
@@ -19,11 +16,8 @@ export const experiences: Experience[] = [
     company: "Recreaish",
     startDate: "Apr 2025",
     endDate: "Aug 2025",
-    bullets: [
-      "Built end-to-end payments infrastructure with Stripe Connect for onboarding, processing, and platform fee routing.",
-      "Developed real-time game and notification updates with Socket.IO and event-driven JavaScript.",
-      "Built backend systems in Go and PostgreSQL for game lifecycle management and concurrent jobs.",
-    ],
+    summary:
+      "Built payments, real-time updates, and game-lifecycle systems for the release of a recreational sports app.",
     tags: ["Go", "PostgreSQL", "Stripe Connect", "Socket.IO"],
   },
   {
@@ -32,9 +26,7 @@ export const experiences: Experience[] = [
     company: "Adventures with Mr. Math",
     startDate: "Aug 2019",
     endDate: "Jun 2024",
-    bullets: [
-      "Led logistics for nationwide competitive math events serving students across the country.",
-      "Mentored students individually on advanced mathematical topics and problem-solving techniques.",
-    ],
+    summary:
+      "Led nationwide competitive math-event logistics while mentoring students in advanced mathematics and problem solving.",
   },
 ];

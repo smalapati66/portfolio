@@ -233,14 +233,10 @@ h3 {
   flex: 0 0 auto;
   white-space: nowrap;
 }
-ul {
+.experience-summary {
   max-width: 700px;
   margin: 1.25rem 0;
-  padding-left: 1.15rem;
   line-height: 1.65;
-}
-li + li {
-  margin-top: 0.45rem;
 }
 .tags {
   display: flex;

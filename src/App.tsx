@@ -77,11 +77,7 @@ function ExperienceCard({ item }: { item: Experience }) {
           {item.startDate} — {item.endDate}
         </p>
       </div>
-      <ul>
-        {item.bullets.map((bullet) => (
-          <li key={bullet}>{bullet}</li>
-        ))}
-      </ul>
+      <p className="experience-summary">{item.summary}</p>
       {item.tags && <Tags items={item.tags} />}
     </article>
   );

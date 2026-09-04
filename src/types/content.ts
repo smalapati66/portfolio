@@ -14,7 +14,7 @@ export interface Experience {
   companyUrl?: string;
   startDate: string;
   endDate: string;
-  bullets: string[];
+  summary: string;
   tags?: string[];
 }
 export interface Project {
